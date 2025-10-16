@@ -30,5 +30,6 @@ while "_" in guess_list:
         print(guess_word)
         if lives == 0:
             print("You failed to guess it GAME OVER the word was: " + chosen_word)
+            break
         else:
             lives-=1
